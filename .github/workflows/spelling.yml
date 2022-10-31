@@ -24,7 +24,7 @@ name: Check Spelling
 
 on:
   push:
-    branches: ["**"]
+    branches: [main]
     tags-ignore: ["**"]
   pull_request_target:
   issue_comment:
